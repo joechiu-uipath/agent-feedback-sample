@@ -1,0 +1,26 @@
+# --- Secrets (do not commit) ---
+.env
+.env.local
+.env.*.local
+
+# --- UiPath CLI runtime artifacts ---
+.uipath/
+
+# --- Claude Code (per-user) ---
+.claude/skills/
+
+# --- Node ---
+node_modules/
+dist/
+*.tsbuildinfo
+
+# --- Packaging artifacts ---
+*.nupkg
+*.uipx
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

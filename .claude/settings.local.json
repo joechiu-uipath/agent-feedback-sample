@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:uipath.github.io)",
+      "Bash(uipath:*)",
+      "Bash(uip:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(curl:*)",
+      "Bash(sed:*)",
+      "Bash(sleep:*)",
+      "Read(//tmp/**)",
+      "Bash(where:*)",
+      "Bash(source:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(export:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(pip:*)",
+      "Bash(python:*)",
+      "mcp__chrome-devtools__*",
+      "Bash(ls:*)",
+      "Bash(UIPATH_FOLDER_KEY=* node:*)",
+      "Bash(UIPATH_FOLDER_PATH=* uipath:*)",
+      "Bash(UIPATH_URL=* uipath:*)",
+      "PowerShell($f = Get-Content -Raw 'C:\\\\Users\\\\joe.chiu\\\\.claude\\\\projects\\\\C--repo-samples-agent-feedback-starter\\\\cf149951-ff61-44ac-a86a-369b7b294539\\\\tool-results\\\\mcp-plugin_github_github-search_code-1776930120162.txt'; Write-Output $f.Length)",
+      "PowerShell(Set-Content *)",
+      "PowerShell(Get-Content *)",
+      "Bash(git -C C:/repo/samples/agent-feedback-starter/ status)",
+      "Bash(git -C C:/repo/samples/agent-feedback-starter/ remote -v)"
+    ]
+  }
+}
