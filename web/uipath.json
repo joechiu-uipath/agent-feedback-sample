@@ -1,0 +1,8 @@
+{
+  "scope": "OR.Default Traces.Api ConversationalAgents",
+  "clientId": "d3d8546e-14dc-46f4-8443-8d5b4f6aeb73",
+  "orgName": "conversationalagents",
+  "tenantName": "DefaultTenant",
+  "baseUrl": "https://cloud.uipath.com",
+  "redirectUri": "https://conversationalagents.uipath.host/openarrri-booth"
+}
